@@ -1,6 +1,6 @@
 ## Definition
 
-A s**ingleton pattern** restricts the istantation of a class to one "single" instance
+A **singleton pattern** restricts the istantation of a class to one "single" instance
 
 The singleton design pattern solves problems like
 
