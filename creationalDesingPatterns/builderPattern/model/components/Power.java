@@ -1,4 +1,4 @@
-package creationalDesingPatterns.builderPattern.model.graphicCard.components;
+package creationalDesingPatterns.builderPattern.model.components;
 
 public class Power {
 
