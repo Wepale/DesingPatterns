@@ -1,15 +1,15 @@
 package creationalDesingPatterns.builderPattern;
 
-import creationalDesingPatterns.builderPattern.interfaces.iBuilder;
+import creationalDesingPatterns.builderPattern.builders.Builder;
 import creationalDesingPatterns.builderPattern.model.GraphicCard;
 import creationalDesingPatterns.builderPattern.model.components.Cooler;
 import creationalDesingPatterns.builderPattern.model.components.Memory;
 import creationalDesingPatterns.builderPattern.model.components.Power;
 
 public class Director {
-    iBuilder builder;
+    Builder builder;
 
-    public Director(iBuilder builder){
+    public Director(Builder builder){
         this.builder = builder;
     }
 
