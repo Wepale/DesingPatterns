@@ -1,12 +1,11 @@
 package creationalDesingPatterns.builderPattern.builders;
 
-import creationalDesingPatterns.builderPattern.interfaces.iBuilder;
 import creationalDesingPatterns.builderPattern.model.GraphicCard;
 import creationalDesingPatterns.builderPattern.model.components.Cooler;
 import creationalDesingPatterns.builderPattern.model.components.Memory;
 import creationalDesingPatterns.builderPattern.model.components.Power;
 
-public class GraphicCardBuilder implements iBuilder {
+public class GraphicCardBuilder implements Builder {
     private GraphicCard card;
 
     public GraphicCardBuilder(){
