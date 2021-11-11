@@ -1,10 +1,12 @@
 package model.components;
 
 public abstract class Component {
-    private String model;
-    private String brand;
+    protected String model;
+    protected String brand;
 
-    public Component(String model, String brand){
+    public Component(){}
+
+    public Component(String brand, String model){
         this.model = model;
         this.brand = brand;
     }

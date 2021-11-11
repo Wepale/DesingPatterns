@@ -1,17 +1,17 @@
 package creationalDesingPatterns.builderPattern;
 
 import creationalDesingPatterns.builderPattern.builders.GraphicCardBuilder;
-import creationalDesingPatterns.builderPattern.model.GraphicCard;
+import model.components.GraphicCard;
 
 public class Client {
     public static void main(String[] args) {
         GraphicCardBuilder builder = new GraphicCardBuilder();
         Director director = new Director(builder);
 
-        director.builRTX3080();
+        director.buildRTX3080();
         GraphicCard rtx3080 = builder.getProduct();
 
-        director.builRX6900();
+        director.buildRX6900();
         GraphicCard rx6900 = builder.getProduct();
 
         System.out.println(rtx3080.toString());

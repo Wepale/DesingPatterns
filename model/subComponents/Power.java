@@ -1,20 +1,24 @@
 package model.subComponents;
 
-public abstract class Power {
+public class Power {
 
-    private Integer numberOfConnectors;
-    private Integer powerConsumition;
+    public static final Integer ONE_PCI = 1;
+    public static final Integer TWO_PCI = 2;
+    public static final Integer THREE_PCI = 3;
 
-    public Power(Integer numberOfConnectors, Integer powerConsumition) {
+    private final Integer numberOfConnectors;
+    private final Integer powerConsumption;
+
+    public Power(Integer numberOfConnectors, Integer powerConsumption) {
             this.numberOfConnectors = numberOfConnectors;
-            this.powerConsumition = powerConsumition;
+            this.powerConsumption = powerConsumption;
     }
 
     public Integer getNumberOfConnectors() {
         return numberOfConnectors;
     }
 
-    public Integer getPowerConsumition() {
-        return powerConsumition;
+    public Integer getPowerConsumption() {
+        return powerConsumption;
     }
 }

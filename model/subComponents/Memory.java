@@ -2,10 +2,10 @@ package model.subComponents;
 
 public class Memory {
 
-    public static final String HYNYX = "HYNYX";
-    public static final String SAMSUNG = "SAMSUNG";
-    public static final String DDR4 = "DDR4";
-    public static final String GDDR5 = "GDDR5";
+    public static final String TYPE_HYNYX = "HYNYX";
+    public static final String TYPE_SAMSUNG = "SAMSUNG";
+    public static final String TYPE_DDR4 = "DDR4";
+    public static final String TYPE_GDDR5 = "GDDR5";
     public static final Integer SIZE_8GB = 8;
     public static final Integer SIZE_12GB = 12;
     public static final Integer SIZE_16GB = 16;
@@ -26,10 +26,6 @@ public class Memory {
 
     public String getManufacturer() {
         return manufacturer;
-    }
-
-    public void setMemory() {
-        
     }
 
     public String getType() {

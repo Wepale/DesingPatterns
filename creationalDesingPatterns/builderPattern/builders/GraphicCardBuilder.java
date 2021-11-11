@@ -1,9 +1,9 @@
 package creationalDesingPatterns.builderPattern.builders;
 
-import creationalDesingPatterns.builderPattern.model.GraphicCard;
-import creationalDesingPatterns.builderPattern.model.components.Cooler;
-import creationalDesingPatterns.builderPattern.model.components.Memory;
-import creationalDesingPatterns.builderPattern.model.components.Power;
+import model.components.GraphicCard;
+import model.subComponents.Cooler;
+import model.subComponents.Memory;
+import model.subComponents.Power;
 
 public class GraphicCardBuilder implements Builder {
     private GraphicCard card;
