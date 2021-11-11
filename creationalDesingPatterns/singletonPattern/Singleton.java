@@ -42,11 +42,11 @@ final class SingletonIoD {
     private SingletonIoD(){}
 
     private static class lazyHolder { 
-        static final SingletonIoD instance = new SingletonIoD();
+        static final SingletonIoD INSTANCE = new SingletonIoD();
     }
 
     public static SingletonIoD getInstance() {
-        return lazyHolder.instance;
+        return lazyHolder.INSTANCE;
     }
 }
 
