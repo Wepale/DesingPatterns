@@ -7,9 +7,9 @@ public class Cooler {
     public final static Integer TWO_FAN = 2;
     public final static Integer THREE_FAN = 3;
     
-    private Integer numberOfFans;
-    private Boolean watterCooled;
-    private Boolean customLoop;
+    private final Integer numberOfFans;
+    private final Boolean watterCooled;
+    private final Boolean customLoop;
 
     public Cooler(Integer numberOfFans, Boolean watterCooled) {
         this.numberOfFans = numberOfFans;

@@ -5,8 +5,8 @@ import model.components.GraphicCard;
 
 public class Computer {
 
-    private Cpu cpu;
-    private GraphicCard graphicCard;
+    private final Cpu cpu;
+    private final GraphicCard graphicCard;
 
     public Computer(Cpu cpu, GraphicCard graphicCard) {
         this.cpu = cpu;

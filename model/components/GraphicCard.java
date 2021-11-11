@@ -8,12 +8,12 @@ public class GraphicCard extends Component{
 
     public static final String BRAND_NVIDIA = "NVIDIA";
     public static final String BRAND_AMD = "AMD";
-    
-    private String brand;
-    private String model;
+
     private Memory memory;
     private Cooler cooler;
     private Power power;
+
+    public GraphicCard() {}
 
     public GraphicCard(String brand, String model, Memory memory, Cooler cooler, Power power){
         super(brand, model);
@@ -31,7 +31,7 @@ public class GraphicCard extends Component{
     }
 
     public void setMemory(Memory memory){
-        if (memory == null){
+        if (this.memory == null){
             this.memory = memory;
         }
     }
@@ -41,7 +41,7 @@ public class GraphicCard extends Component{
     }
 
     public void setPower(Power power){
-        if (power == null){
+        if (this.power == null){
             this.power = power;
         }
     }
