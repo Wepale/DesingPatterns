@@ -1,4 +1,4 @@
-package creationalDesingPatterns.builderPattern;
+package directors;
 
 import creationalDesingPatterns.builderPattern.builders.Builder;
 import model.components.GraphicCard;
